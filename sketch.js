@@ -28,7 +28,7 @@ function setup() {
   bird_png = loadImage('bird.png');
   pipe_png = loadImage('pipe1.png');
   invert_pipe = loadImage('invert_pipe.jpeg');
-  bg = loadImage('background_png.png');
+  bg = loadImage('back.jpeg');
   input = createP('Slider to speed up the Training');
   input.position((windowWidth / 2) - 250,(windowHeight/2) + 210 );
   //speedup = createElement('h2', 'Slider to spped up the training');
