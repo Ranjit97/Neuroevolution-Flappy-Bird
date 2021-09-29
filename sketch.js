@@ -25,7 +25,7 @@ function setup() {
   cnv.position(x, y);
   fill(120);
   bird_png = loadImage('bird.png');
-  pipe_png = loadImage('pipe.png');
+  pipe_png = loadImage('pipe1.png');
   bg = loadImage('background_png.png');
   input = createP('Slider to speed up the Training');
   input.position((windowWidth / 2) - 250,(windowHeight/2) + 210 );
@@ -88,7 +88,7 @@ function draw() {
   }
   
   //All the drawing Stuff here
-  background(bg);
+  background(0);
     
   //fill(0);
   //text( 'Slider to spped up the training'  , (windowWidth / 2) - 250,(windowHeight/2) + 100  );
