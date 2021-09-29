@@ -88,7 +88,7 @@ function draw() {
   }
   
   //All the drawing Stuff here
-  background(bg);
+  background(0);
     
   //fill(0);
   //text( 'Slider to spped up the training'  , (windowWidth / 2) - 250,(windowHeight/2) + 100  );
